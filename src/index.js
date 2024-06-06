@@ -6,7 +6,17 @@ const el = document.getElementById('root');
 const root = ReactDOM.createRoot(el);
 
 function App() {
-    return <h1>Hello, World!</h1>;
+ 
+  const config={color:"red"};
+
+
+    return(
+    <div>
+       <h1> My color is {config.color}</h1>
+       
+        
+    </div> 
+    )
 }
 
 root.render(<App />);
